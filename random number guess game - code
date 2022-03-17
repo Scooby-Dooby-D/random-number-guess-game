@@ -1,7 +1,7 @@
 import random as rand
 number = rand.randrange(0,10)
 
-input = int(input("guess number: "))
+input = int(input("guess the number: "))
 def func():
     if input == number:
         print("correct")
